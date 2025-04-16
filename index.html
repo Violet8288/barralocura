@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Stats de Personaje</title>
+<style>
+    body {
+        background: #1e1e1e;
+        color: #fff;
+        font-family: 'Arial', sans-serif;
+        padding: 30px;
+    }
+
+    h1 {
+        color: #ff79c6;
+    }
+
+    .stat {
+        margin-bottom: 20px;
+    }
+
+    .stat-label {
+        margin-bottom: 5px;
+        font-size: 18px;
+    }
+
+    .stat-bar {
+        background: #444;
+        border-radius: 10px;
+        overflow: hidden;
+        height: 20px;
+        width: 300px;
+    }
+
+    .stat-fill {
+        height: 100%;
+        border-radius: 10px;
+    }
+
+    .locura {
+        background: #ff5555;
+        width: 90%; /* nivel de locura */
+    }
+
+    .carisma {
+        background: #f1fa8c;
+        width: 65%; /* nivel de carisma */
+    }
+
+    .manipulacion {
+        background: #bd93f9;
+        width: 80%; /* nivel de manipulación */
+    }
+</style>
+</head>
+<body>
+
+<h1>📊 Stats de Rene Shuvi</h1>
+
+<div class="stat">
+    <div class="stat-label">🧠 Locura</div>
+    <div class="stat-bar">
+        <div class="stat-fill locura"></div>
+    </div>
+</div>
+
+<div class="stat">
+    <div class="stat-label">✨ Carisma</div>
+    <div class="stat-bar">
+        <div class="stat-fill carisma"></div>
+    </div>
+</div>
+
+<div class="stat">
+    <div class="stat-label">🎭 Manipulación</div>
+    <div class="stat-bar">
+        <div class="stat-fill manipulacion"></div>
+    </div>
+</div>
+
+</body>
+</html>
